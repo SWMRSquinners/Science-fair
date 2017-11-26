@@ -1,0 +1,26 @@
+<HTML>
+<HEAD>
+
+<SCRPT LANGUAGE=“JavaScript”>
+   <TITLE>Testing, testing!</TITLE>
+
+<!—-Beginning of JavaScript -
+
+function TxtBox (textstring) {
+alert (textstring) }
+
+// - End of Javascript- -->
+</SCRIPT>	
+
+</HEAD>
+
+<BODY>
+   This is my first attempt at JavaScript.
+
+<FORM>
+<INPUT NAME=“text1” TYPE=Text>
+<INPUT NAME=“submit” TYPE=Button VALUE=“Show Me!” onClick="TxtBox(form.text1.value)”>
+</FORM>
+
+</BODY>
+</HTML>
